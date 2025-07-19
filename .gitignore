@@ -1,5 +1,76 @@
-.env/
-.Dockerfile/
-.docker-compose.yml/
-./app/core/config.py
-./app/core/security.py
+# -----------------------
+# Python cache
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# -----------------------
+# Virtual environments
+# -----------------------
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# -----------------------
+# IDE files
+# -----------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------
+# Bytecode / logs
+# -----------------------
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+.DS_Store
+
+# -----------------------
+# dotenv / secrets
+# -----------------------
+.env
+.env.*
+
+# -----------------------
+# Pytest cache
+# -----------------------
+.pytest_cache/
+coverage/
+htmlcov/
+*.cover
+
+# -----------------------
+# Docker
+# -----------------------
+*.pid
+*.sock
+docker-compose.yml
+Dockerfile
+
+# -----------------------
+# Alembic (if you add it later)
+# -----------------------
+alembic.ini
+alembic/versions/
+
+# -----------------------
+# Editor backups
+# -----------------------
+*~
+*.swp
+*.swo
+
+# -----------------------
+# System files
+# -----------------------
+Thumbs.db
+ehthumbs.db
