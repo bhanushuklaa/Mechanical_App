@@ -62,6 +62,7 @@ Dockerfile
 alembic.ini
 alembic/versions/
 
+
 # -----------------------
 # Editor backups
 # -----------------------
@@ -74,3 +75,4 @@ alembic/versions/
 # -----------------------
 Thumbs.db
 ehthumbs.db
+
