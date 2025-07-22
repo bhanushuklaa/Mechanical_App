@@ -75,4 +75,5 @@ alembic/versions/
 # -----------------------
 Thumbs.db
 ehthumbs.db
+wait-for-postgres.sh
 
