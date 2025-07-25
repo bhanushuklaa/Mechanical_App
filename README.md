@@ -133,9 +133,9 @@ docker-compose build backend
 
 - Host: `localhost`
 - Port: `5432`
-- User: `postgres`
-- Password: `postgres`
-- DB: `mechanic_db`
+- User: `youruserid`
+- Password: `yourpassword`
+- DB: `db_name`
 
 ## 🧪 Unit Testing (optional)
 
